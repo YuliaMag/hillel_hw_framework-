@@ -14,7 +14,8 @@ Training on creating separate test project from scratch.
   - webdriver-manager
 
 ##### Running Tests: 
-Commands to run tests with pytest:
+Please make sure you are in correct direcxtory: ./hillel_hw_framework-
+- Commands to run tests with pytest:
 - pytest tests  -- to  run all tests at once
 - pytest -k <test_name>.py -- to run particular test by key
 - pytest tests/<test_name>.py --  to run test from particular path

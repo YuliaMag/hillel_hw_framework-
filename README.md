@@ -4,6 +4,7 @@
 Training on creating separate test project from scratch.
 
 ##### Installation: 
+- Please install required dependencies: pip install -r requirements.txt
 - Entity under test: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 - Tests are supposed to be run for Chrome browser only. 
 - Please install chromedriver according to base instructions (https://katekuehl.medium.com/installation-guide-for-google-chrome-chromedriver-and-selenium-in-a-python-virtual-environment-e1875220be2f)

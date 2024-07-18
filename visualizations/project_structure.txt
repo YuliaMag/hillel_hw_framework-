@@ -1,11 +1,13 @@
 hillel_hw_framework/
 │
+├── helpers/
+│   └── user.py                             # Helper class to implement user for interaction with the application
+│
 ├── pages/
 │   ├── base_page.py                        # BasePage class for common methods
 │   ├── login_page.py                       # LoginPage class with methods related to logging in
 │   ├── dashboard_page.py                   # DashboardPage class for dashboard display realization
-│   ├── pas_reset_page.py                   # ResetPassword class with methods related to password resetting
-│   └── user.py                             # Helper class to implement user for interaction with the application
+│   └── pas_reset_page.py                   # ResetPassword class with methods related to password resetting
 │
 ├── tests/
 │   ├── conftest.py                         # Pytest configuration file with fixtures involved

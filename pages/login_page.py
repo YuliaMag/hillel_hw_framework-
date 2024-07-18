@@ -19,7 +19,7 @@ class LoginPage(BasePage):
         self.find_element(self.LOGIN_BUTTON).click()
 
     def get_error_message(self):
-        return self.ERROR_MSG
+        return self.find_element(self.ERROR_MSG)
 
     def forgot_pas_click(self):
         self.find_element(self.FORGOT_PASSWORD_BUTTON).click()

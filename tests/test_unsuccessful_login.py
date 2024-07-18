@@ -1,11 +1,5 @@
-from pages.login_page import LoginPage
+def test_unsuccessful_login(login_page_fx, invalid_user):
+    login_page_fx.open()
+    login_page_fx.login(invalid_user)
 
-
-def test_unsuccessful_login(browser, invalid_user):
-    login_page = LoginPage(browser)
-
-    login_page.open()
-    login_page.login(invalid_user)
-
-    assert login_page.get_error_message()
-
+    assert login_page_fx.get_error_message()

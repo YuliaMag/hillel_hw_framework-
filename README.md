@@ -8,13 +8,9 @@ Training on creating separate test project from scratch.
 - Entity under test: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 - Tests are supposed to be run for Chrome browser only. 
 - Please install chromedriver according to base instructions (https://katekuehl.medium.com/installation-guide-for-google-chrome-chromedriver-and-selenium-in-a-python-virtual-environment-e1875220be2f)
-- The following packages are required before starting to work with the tests:
-  - pytest, 
-  - selenium, 
-  - webdriver-manager
 
 ##### Running Tests: 
-Please make sure you are in correct direcxtory: ./hillel_hw_framework-
+Please make sure you are in correct directory: ./hillel_hw_framework-
 - Commands to run tests with pytest:
 - pytest tests  -- to  run all tests at once
 - pytest -k <test_name>.py -- to run particular test by key

@@ -24,5 +24,11 @@ class LoginPage(BasePage):
     def forgot_pas_click(self):
         self.find_element(self.FORGOT_PASSWORD_BUTTON).click()
 
-
+"""
+def forgot_pas_click(self): does not return anything
+it is for clicking the button only
+Perhaps I'm not getting the structure that deep
+I'll try to improve it in future
+But for now I'll leave it as it is, so I won't lose the plot
+"""
 

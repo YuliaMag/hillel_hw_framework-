@@ -1,0 +1,25 @@
+hillel_hw_framework/
+│
+├── helpers/
+│   └── user.py                             # Helper class to implement user for interaction with the application
+│
+├── pages/
+│   ├── base_page.py                        # BasePage class for common methods
+│   ├── login_page.py                       # LoginPage class with methods related to logging in
+│   ├── dashboard_page.py                   # DashboardPage class for dashboard display realization
+│   └── pas_reset_page.py                   # ResetPassword class with methods related to password resetting
+│
+├── tests/
+│   ├── conftest.py                         # Pytest configuration file with fixtures involved
+│   ├── test_successful_login.py            # Test case related to successful login
+│   ├── test_unsuccessful_login.py          # Test case related to login reject
+│   ├── test_forgot_password_redirect.py    # Test case related to password reset
+│   ├── test_password_reset_submit.py       # Test case related to password reset
+│   └── test_password_reset_cancel.py       # Test case related to password reset
+│
+├── visualizations/
+│   ├── project_structure.txt               # project tree schema
+│   └── scenarios.txt                       # test scenarios
+│
+├── pytest.ini                              # Pytest configuration of test result representation outcome
+└── README.md                               # Project documentation

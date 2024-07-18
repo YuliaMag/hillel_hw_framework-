@@ -1,0 +1,35 @@
+### Test Scenarios
+
+#### Successful Login Test
+- Navigate to the login page.
+- Enter valid credentials and click Login.
+- Verify that the user is navigated to the dashboard page.
+
+
+#### Unsuccessful Login Test
+- Navigate to the login page.
+- Enter invalid credentials and click Login.
+- Verify that the user remains on the login page.
+
+
+#### Forgot Password Navigate Test
+- Navigate to the login page.
+- Click Forgot Your Password?.
+- Verify that the user is navigated to the reset password page.
+
+
+#### Password Reset Cancellation Test
+- Navigate to the login page.
+- Click Forgot Your Password?.
+- On the reset password page click Cancel.
+- Verify that the user is navigated back to the login page.
+
+
+#### Password Reset Submission Test
+- Navigate to the login page.
+- Click Forgot Your Password?.
+- On the reset password page enter valid user name and click Reset Password.
+- Verify that Reset Password link sent successfully form is displayed.
+
+
+
